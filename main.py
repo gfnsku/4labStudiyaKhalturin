@@ -5,7 +5,7 @@ import sqlite3
 import os
 from tkcalendar import Calendar, DateEntry
 from PIL import Image, ImageTk
-from datetime import datetime
+from datetime import datetime  #проверить коммит
 
 def setup_database():
     conn = sqlite3.connect("studio.db")
